@@ -6,6 +6,11 @@ export const tabs = [
         label: 'Home',
         dest: '/',
     },
+        {
+        icon: 'home',
+        label: 'Switch League',
+        dest: '/',
+    },
     {
         icon: 'local_fire_department',
         label: 'Matchups',
