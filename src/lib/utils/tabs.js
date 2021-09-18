@@ -9,7 +9,7 @@ export const tabs = [
         {
         icon: 'cached',
         label: 'Switch League',
-        dest: '/',
+        dest: 'https://ffpremierleague.vercel.app/',
     },
     {
         icon: 'local_fire_department',
