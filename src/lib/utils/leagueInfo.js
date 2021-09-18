@@ -1,23 +1,25 @@
 /*   STEP 1   */
-export const leagueID = "735853559832276992"; // your league ID
-export const leagueName = "Fantasy Football Premier League"; // your league name
-export const dues = 20; // (optional) used in template constitution page
-export const dynasty = False; // true for dynasty leagues, false for redraft and keeper
+export const leagueID = "your_league_id"; // your league ID
+export const leagueName = "your_league_name"; // your league name
+export const dues = 100; // (optional) used in template constitution page
+export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>FFPL is a relegation style fantasy football league. 24 players will compete to be in League A and prove who the best fantasy player is. The bottom 3 from league A will be demoted to League B, where they will have to fight their way back up.</p>
-  <p>2021 will be a players best chance to make the premier leagues highest level, with 6 teams from each league being promoted to League A. After the 2021 season, only the 3 best teams in league B get the bump. What makes League A so great? How about a giant freaking trophy! Also payout will be 60% League A and 40% League B. And dont forget that you beat the best to be known as the FFPL Champion.</p>
-  <p></p>
-  <p></p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 `;
 
 /*   STEP 3   */
 /*
 3 managers as an example. Uncomment (remove the //) before each line to make it live code
 If you're having trouble, reference the Training Wheels' Manager Section
-https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#2-add-managers
+https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text
 */
 
 // To omit an optional field, set it's value to null
