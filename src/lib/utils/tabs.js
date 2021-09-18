@@ -7,7 +7,7 @@ export const tabs = [
         dest: '/',
     },
         {
-        icon: 'cache',
+        icon: 'cached',
         label: 'Switch League',
         dest: '/',
     },
